@@ -12,7 +12,7 @@ Version:	1.02
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Mail/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a35314740ca9b0b3e253c9c4765e9947
 URL:		http://search.cpan.org/dist/Mail-RBL/
 BuildRequires:	perl-devel >= 1:5.8.0
