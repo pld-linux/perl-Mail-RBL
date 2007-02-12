@@ -6,7 +6,7 @@
 %define	pdir	Mail
 %define	pnam	RBL
 Summary:	Mail::RBL - Perl extension to access RBL-style host verification services
-Summary(pl):	Mail::RBL - rozszerzenie perlowe do dostêpu do us³ug weryfikacji hostów w stylu RBL
+Summary(pl.UTF-8):   Mail::RBL - rozszerzenie perlowe do dostÄ™pu do usÅ‚ug weryfikacji hostÃ³w w stylu RBL
 Name:		perl-Mail-RBL
 Version:	1.02
 Release:	1
@@ -29,9 +29,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module is meant to help querying blackhole lists, typically for
 use in anti-spam solutions.
 
-%description -l pl
-Ten modu³ ma pomagaæ w odpytywaniu list "czarnych dziur", zwykle
-u¿ywanych w mechanizmach antyspamowych.
+%description -l pl.UTF-8
+Ten moduÅ‚ ma pomagaÄ‡ w odpytywaniu list "czarnych dziur", zwykle
+uÅ¼ywanych w mechanizmach antyspamowych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
