@@ -6,7 +6,7 @@
 %define	pdir	Mail
 %define	pnam	RBL
 Summary:	Mail::RBL - Perl extension to access RBL-style host verification services
-Summary(pl.UTF-8):   Mail::RBL - rozszerzenie perlowe do dostępu do usług weryfikacji hostów w stylu RBL
+Summary(pl.UTF-8):	Mail::RBL - rozszerzenie perlowe do dostępu do usług weryfikacji hostów w stylu RBL
 Name:		perl-Mail-RBL
 Version:	1.02
 Release:	1
