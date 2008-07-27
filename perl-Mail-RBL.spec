@@ -9,7 +9,7 @@ Summary:	Mail::RBL - Perl extension to access RBL-style host verification servic
 Summary(pl.UTF-8):	Mail::RBL - rozszerzenie perlowe do dostępu do usług weryfikacji hostów w stylu RBL
 Name:		perl-Mail-RBL
 Version:	1.02
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
