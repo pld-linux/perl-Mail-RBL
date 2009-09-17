@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_with	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Mail
@@ -40,10 +40,6 @@ używanych w mechanizmach antyspamowych.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
-
-# according to author it's ok even if it fails
-# it fails so it's better to remove it
-%{__rm} t/10-rbl.t
 
 %{?with_tests:%{__make} test}
 
