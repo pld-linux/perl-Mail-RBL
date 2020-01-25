@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Mail
 %define	pnam	RBL
 Summary:	Mail::RBL - Perl extension to access RBL-style host verification services
